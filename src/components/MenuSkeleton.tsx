@@ -13,8 +13,11 @@ const SkeletonItem: React.FC = () => (
 const MenuSkeleton: React.FC = () => {
     return (
         <div className="min-h-screen bg-zinc-950 p-4 space-y-12">
-            {/* Header Skeleton */}
-            <div className="flex flex-col items-center space-y-6 pt-8">
+            {/* Header Skeleton Spacer */}
+            <div className="h-[210px] md:h-[400px]"></div>
+
+            {/* Logo/Header Placeholder */}
+            <div className="flex flex-col items-center space-y-6">
                 <div className="w-32 h-32 bg-white/5 rounded-3xl"></div>
                 <div className="h-4 bg-white/5 rounded w-48"></div>
             </div>
