@@ -14,7 +14,7 @@ const MenuSkeleton: React.FC = () => {
     return (
         <div className="min-h-screen bg-zinc-950 p-4 space-y-12">
             {/* Header Skeleton Spacer */}
-            <div className="h-[210px] md:h-[400px]"></div>
+            <div className="h-[180px] md:h-[300px]"></div>
 
             {/* Logo/Header Placeholder */}
             <div className="flex flex-col items-center space-y-6">

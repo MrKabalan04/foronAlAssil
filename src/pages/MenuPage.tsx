@@ -221,10 +221,10 @@ const MenuPage: React.FC = () => {
             </header>
 
             {/* Spacer to prevent content overlap with fixed header */}
-            <div className="h-[230px] sm:h-[250px] md:h-[420px] lg:h-[450px]"></div>
+            <div className="h-[180px] sm:h-[200px] md:h-[300px] lg:h-[320px]"></div>
 
             {/* Category Nav - Mobile Only - Fixed below header */}
-            <div className="md:hidden fixed top-[230px] left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur-xl border-b border-white/10 font-ar">
+            <div className="md:hidden fixed top-[180px] left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur-xl border-b border-white/10 font-ar">
                 <CategoryList
                     categories={categories}
                     activeCategory={activeCategory}
